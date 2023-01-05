@@ -96,7 +96,7 @@
                 {% else %}
                   <img src="{% static '/img/blog.png' %}" class="card-img-top" alt="">
                 {% endif %}
-                <ul class="thumb-info">
+                <ul class="thumb-info" style="max-width: 550px;">
                   <li><a href="#"><i class="ti-user"></i>{{blog_post.author}}</a></li>
                   <li><a href="#"><i class="ti-notepad"></i>{{blog_post.published_at}}</a></li>
                   <li><a href="#"><i class="ti-themify-favicon"></i>{{blog_post.comments_amount}} Comments</a></li>
